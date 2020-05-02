@@ -1,0 +1,27 @@
+:host{
+    --font-color: #6a6a6a;
+    --border-color: #6a6a6a;
+    --font-hover: #fff;
+    --scroller-track: #f1f1f1;
+    --scroller-thumb: #888;
+    --scroller-hover: #00c19e;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;    
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00c19e;        
+}

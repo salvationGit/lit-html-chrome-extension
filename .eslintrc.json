@@ -1,0 +1,25 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "webextensions": true,
+    "mocha": true    
+  },
+  "rules": {    
+    "no-console": "off",
+		"no-unused-vars":"error",
+    "semi": ["error", "always"],
+    "arrow-parens": [2, "as-needed"],
+    "indent": ["error", 2, {
+      "flatTernaryExpressions": true
+    }]
+  }
+}
+

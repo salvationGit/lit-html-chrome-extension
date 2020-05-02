@@ -1,0 +1,72 @@
+:host{
+    border-radius: 5px;
+    border-color: lightgray;    
+    height: 100px;
+    --font-color: #6a6a6a;
+    --border-color: #6a6a6a;
+}
+.title{    
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.title-label{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.note-icon{
+    font-size: 20px !important;
+}
+.desc{        
+    width: 216px;    
+    overflow: hidden;
+    text-overflow:ellipsis;
+    height: 50px;    
+    overflow-wrap: break-word;   
+}
+.list-item{    
+    position: absolute;
+    width: min-content;        
+    text-align: left;        
+    border-radius: 8px;
+    border-color: var(--border-color);
+    background: transparent;
+    color: white;
+    display: grid;    
+}
+.list-item:hover{
+    background: lightblue;
+    cursor: pointer;
+}
+.list-item:focus{
+    outline: none;
+}
+.overlay {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;    
+    border-radius: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;    
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00c19e;
+  }
+  .list-item:hover .overlay {
+    opacity: 1;
+  }
+  .overlay > .material-icons:hover{
+    color: darkslategrey;
+  }  
+  .preview-image{
+    width: 100%;
+  }
