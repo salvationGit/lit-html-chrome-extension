@@ -1,7 +1,7 @@
 {
   "name": "lit-html-chrome-extension",
   "version": "0.0.1",
-  "description": "scenario runner",
+  "description": "lit-html based chrome demo and boilerplate",
   "scripts": {
     "build": "node utils/build.js",
     "start": "node utils/webserver.js",
