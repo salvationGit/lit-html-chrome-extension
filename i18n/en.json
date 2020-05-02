@@ -1,0 +1,10 @@
+{
+  "NEW_NOTE":{
+    "TITLE_PLACEHOLDER": "title",
+    "DESC_PLACEHOLDER":"Take a note..." 
+  },
+  "TAKE_NOTE":"take a note",
+  "FIND_NOTE":"find note",
+  "SEARCH_NOT_FOUND": "Nothing found under that pile of sand",
+  "EMPTY_BOARD": "Your board is empty as the desert"
+}
