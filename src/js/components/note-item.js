@@ -26,7 +26,7 @@ class NoteItem extends LitHauntedElement { //eslint-disable-line
    }
              
    render() {
-     const {title, desc,  color} = this.options;
+     const {title, color} = this.options;
 
      return html `
      <div>
@@ -47,7 +47,7 @@ class NoteItem extends LitHauntedElement { //eslint-disable-line
      `;     
    }     
    renderDesc(){
-     const {srcUrl, linkUrl, desc} = this.options;
+     const {srcUrl, desc} = this.options;
 
      return html`
       ${srcUrl ? html`<img class="preview-image" src=${srcUrl} />` : html``}

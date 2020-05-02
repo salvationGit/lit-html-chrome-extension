@@ -64,6 +64,6 @@ chrome.runtime.onMessageExternal.addListener(
 /**
  * get messages from content.js
  */
-chrome.runtime.onMessage.addListener(async req => {
+// chrome.runtime.onMessage.addListener(async req => {
   
-});
+// });

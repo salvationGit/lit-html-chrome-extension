@@ -1,8 +1,8 @@
-const state = {};
-const extensionId = chrome.runtime.id;
+// const state = {};
+// const extensionId = chrome.runtime.id;
 
-chrome.runtime.onMessage.addListener(
-  (request, sender, sendResponse) => {
+// chrome.runtime.onMessage.addListener(
+//   (request, sender, sendResponse) => {
     
-  }
-);
+//   }
+// );

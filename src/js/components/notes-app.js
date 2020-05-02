@@ -69,7 +69,7 @@ class NotesApp extends LitHauntedElement { //eslint-disable-line
     `;
    }    
    renderEdit(){  
-     const {title, desc, color = "white"} = this.selectedItem;   
+     const {title, color = "white"} = this.selectedItem;   
      
      return html`
       <div class="edit-container">         
