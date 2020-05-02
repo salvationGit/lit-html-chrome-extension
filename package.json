@@ -1,5 +1,5 @@
 {
-  "name": "showtime",
+  "name": "lit-html-chrome-extension",
   "version": "0.0.1",
   "description": "scenario runner",
   "scripts": {
